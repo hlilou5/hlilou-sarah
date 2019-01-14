@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bibots</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="shortcut icon" href="res/logo.png">
+    <link rel="stylesheet" href="css/style.css">
 
+</head>
+<body>
+<center><br><br><br>
+	<div id="login-div">
+<img class="logo-page1" src="res/logo.png"><br><br><br>
+<p class="username-p">Email or Usernme</p>
+<input id="user" class="username-input" type="text" name="user" placeholder="username...">
+<p class="password-p">Password</p>
+<input id="pass" class="password-input" type="password" name="pass" placeholder="password...">
+<br><br>
+<button type="submit" class="login-button" onclick="submit()">Login</button>
+    </center>
+</div>
+<div id="logedin-div" style="display: none;">
+	<center><div class="wel-msg"><p style="padding-right: 20px;font-family: 'Roboto', sans-serif;">Welcome</p><p style="font-family: 'Roboto', sans-serif;" id="name0"></p></div></center>
+<center><div style="position:fixed;"><center><input type="text" name="msg"><button>Send</button></center></div>	
+</center></div>
+</body>
+<script src="js/main.js"></script>
+</html>
